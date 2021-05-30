@@ -1,0 +1,14 @@
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\bin\Debug\netcoreapp2.1\ShoppingCart.Model.Factory.deps.json
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\bin\Debug\netcoreapp2.1\ShoppingCart.Model.Factory.dll
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\bin\Debug\netcoreapp2.1\ShoppingCart.Model.Factory.pdb
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\bin\Debug\netcoreapp2.1\ShoppingCart.Discount.dll
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\bin\Debug\netcoreapp2.1\ShoppingCart.Model.dll
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\bin\Debug\netcoreapp2.1\ShoppingCart.Discount.pdb
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\bin\Debug\netcoreapp2.1\ShoppingCart.Model.pdb
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\obj\Debug\netcoreapp2.1\ShoppingCart.Model.Factory.csprojAssemblyReference.cache
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\obj\Debug\netcoreapp2.1\ShoppingCart.Model.Factory.csproj.CoreCompileInputs.cache
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\obj\Debug\netcoreapp2.1\ShoppingCart.Model.Factory.AssemblyInfoInputs.cache
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\obj\Debug\netcoreapp2.1\ShoppingCart.Model.Factory.AssemblyInfo.cs
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\obj\Debug\netcoreapp2.1\ShoppingCart.Model.Factory.csproj.CopyComplete
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\obj\Debug\netcoreapp2.1\ShoppingCart.Model.Factory.dll
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Model.Factory\obj\Debug\netcoreapp2.1\ShoppingCart.Model.Factory.pdb
