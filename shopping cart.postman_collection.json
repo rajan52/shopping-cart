@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "bac4b86b-7cf7-4ad0-a87e-a287b3b40706",
+		"name": "shopping cart",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "privileged user login token generation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    UserName:\"privilegedcust\",\r\n    Password:\"12345\",\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44324/api/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44324",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "normal user token generation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    UserName:\"normalcust\",\r\n    Password:\"12345\",\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44324/api/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44324",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customer get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    UserName:\"normalcust\",\r\n    Password:\"12345\",\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44324/api/customer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44324",
+					"path": [
+						"api",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "discount",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"name\": \"privileged\",\r\n    \"userName\": null,\r\n    \"password\": null,\r\n    \"totalPrce\": 300,\r\n    \"discountedPrice\": 0.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44324/api/Discount",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44324",
+					"path": [
+						"api",
+						"Discount"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
