@@ -1,0 +1,8 @@
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Discount\bin\Debug\netcoreapp2.1\ShoppingCart.Discount.deps.json
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Discount\bin\Debug\netcoreapp2.1\ShoppingCart.Discount.dll
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Discount\bin\Debug\netcoreapp2.1\ShoppingCart.Discount.pdb
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Discount\obj\Debug\netcoreapp2.1\ShoppingCart.Discount.csproj.CoreCompileInputs.cache
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Discount\obj\Debug\netcoreapp2.1\ShoppingCart.Discount.AssemblyInfoInputs.cache
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Discount\obj\Debug\netcoreapp2.1\ShoppingCart.Discount.AssemblyInfo.cs
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Discount\obj\Debug\netcoreapp2.1\ShoppingCart.Discount.dll
+C:\Users\kurajan\source\repos\ShoppingCart\ShoppingCart.Discount\obj\Debug\netcoreapp2.1\ShoppingCart.Discount.pdb
