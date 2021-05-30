@@ -1,0 +1,56 @@
+<div style="float:right;">
+    <button [routerLink]="['/home']" mat-button>Home</button>
+
+    <button [routerLink]="['/login']" mat-button>Logout</button>
+
+    <label  >welcome {{userName}}</label>
+  </div>
+  <br>
+  <br>
+  <br>
+  <form [formGroup]="discountForm" (ngSubmit)="onSubmit()">
+    <table  class="center" cellpadding="4">
+      <tbody>
+        <tr>
+          <td>Gold Price (Per Gram)</td>
+          <td><input type="text" id="txtgoldPrice"   formControlName="GoldpriceControl" [(ngModel)]="goldPrice"></td>
+          <td><label *ngIf="data.GoldpriceControl.errors?.required">Gold Price (Per Gram) Is Required</label></td>
+        </tr>
+
+        <tr>
+            <td>Wight</td>
+            <td><input type="text" id="txtweight"  formControlName="WeightControl" [(ngModel)]="weight"></td>
+            <td><label *ngIf="data.WeightControl.errors?.required">Wight is required</label></td>
+          </tr>
+
+          <tr>
+              <td>Total Price</td>
+              <td><input type="text" id="txttotalPriceControl"    value="{{goldPrice * weight }}" formControlName="TotalPriceControl"></td>
+              <td></td>
+            </tr>
+
+            <tr [hidden]="!showDiscount">
+                <td>Discount</td>
+                <td><input type="text" id="txtdiscount"  formControlName="DiscountControl"></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                  <td >Total Discount</td>
+                   <td colspan="2" ><label id="lbldiscountedPrice">{{customerDataService.customer.discountedPrice}}</label></td> 
+                  <!-- <td><input type="text" id="txtdiscountedPrice"     formControlName="TotalDiscountControl" [(ngModel)]="customerDataService.customer.discountedPrice"></td> -->
+            </tr>
+
+            <tr>
+                  <td colspan="3" style="text-align:center;"><button id="btncalculate"  >Calcuate Discount</button></td>
+            </tr>
+
+            <tr>
+                <td ><button (click)="printToScreen()"  type="button">Print to screen</button></td>
+                <td ><button (click)="printToFile()" type="button">Print to File</button></td>
+                <td ><button (click)="printToPdf()"type="button">Print to Paper</button></td>
+          </tr>
+                
+      </tbody>
+    </table>
+  </form>
