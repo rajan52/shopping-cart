@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ShoppingCart.Model.Factory/1.0.0": {
+        "dependencies": {
+          "ShoppingCart.Discount": "1.0.0",
+          "ShoppingCart.Model": "1.0.0"
+        },
+        "runtime": {
+          "ShoppingCart.Model.Factory.dll": {}
+        }
+      },
+      "ShoppingCart.Discount/1.0.0": {
+        "runtime": {
+          "ShoppingCart.Discount.dll": {}
+        }
+      },
+      "ShoppingCart.Model/1.0.0": {
+        "dependencies": {
+          "ShoppingCart.Discount": "1.0.0"
+        },
+        "runtime": {
+          "ShoppingCart.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShoppingCart.Model.Factory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShoppingCart.Discount/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShoppingCart.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
